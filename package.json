@@ -1,0 +1,40 @@
+{
+  "name": "magnitude",
+  "version": "1.0.0",
+  "description": "n-dimensional vector magnitude",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "vector",
+    "magnitude",
+    "mag",
+    "len",
+    "length",
+    "lenSqr",
+    "sqr",
+    "square",
+    "squared",
+    "position"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/magnitude.git"
+  },
+  "homepage": "https://github.com/mattdesl/magnitude",
+  "bugs": {
+    "url": "https://github.com/mattdesl/magnitude/issues"
+  }
+}
